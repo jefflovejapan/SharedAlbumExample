@@ -15,6 +15,7 @@
 		1F135D7A25523CAB00BB1A39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F135D7825523CAB00BB1A39 /* LaunchScreen.storyboard */; };
 		1F135D8525523CAB00BB1A39 /* SharedAlbumExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F135D8425523CAB00BB1A39 /* SharedAlbumExampleTests.swift */; };
 		1F135D9025523CAB00BB1A39 /* SharedAlbumExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F135D8F25523CAB00BB1A39 /* SharedAlbumExampleUITests.swift */; };
+		1F135E1A2553467500BB1A39 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F135E192553467500BB1A39 /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1F135D8B25523CAB00BB1A39 /* SharedAlbumExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedAlbumExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F135D8F25523CAB00BB1A39 /* SharedAlbumExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAlbumExampleUITests.swift; sourceTree = "<group>"; };
 		1F135D9125523CAB00BB1A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F135E192553467500BB1A39 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				1F135D6D25523CAA00BB1A39 /* AppDelegate.swift */,
 				1F135D6F25523CAA00BB1A39 /* SceneDelegate.swift */,
 				1F135D7125523CAA00BB1A39 /* ViewController.swift */,
+				1F135E192553467500BB1A39 /* PickerViewController.swift */,
 				1F135D7325523CAA00BB1A39 /* Main.storyboard */,
 				1F135D7625523CAB00BB1A39 /* Assets.xcassets */,
 				1F135D7825523CAB00BB1A39 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				1F135D7225523CAA00BB1A39 /* ViewController.swift in Sources */,
 				1F135D6E25523CAA00BB1A39 /* AppDelegate.swift in Sources */,
+				1F135E1A2553467500BB1A39 /* PickerViewController.swift in Sources */,
 				1F135D7025523CAA00BB1A39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QE4PFXDL4H;
 				INFOPLIST_FILE = SharedAlbumExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QE4PFXDL4H;
 				INFOPLIST_FILE = SharedAlbumExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
